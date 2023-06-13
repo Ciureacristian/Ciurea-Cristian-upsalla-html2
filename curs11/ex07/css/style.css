@@ -1,0 +1,33 @@
+/* please do not modify this code */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.grid-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid-item-1 {
+  background-color: lightblue;
+}
+
+.grid-item-2 {
+  background-color: lightcoral;
+}
+
+.grid-item-3 {
+  background-color: lightgreen;
+}
+
+.grid-item-4 {
+  background-color: lightsalmon;
+}
+/* please do not modify this code */
