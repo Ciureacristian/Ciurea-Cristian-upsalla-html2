@@ -2,6 +2,30 @@ $cHover: red;
 $cActive: purple;
 $cGreen: green;
 
+$cHover1: magenta;
+$cActive1: pink;
+$cVisited: lightcoral;
+
+.all-visited a {
+  text-decoration: line-through;
+}
+
+ol {
+  a {
+    &:hover {
+      color: $cHover1;
+    }
+
+    &:active {
+      color: $cActive1;
+    }
+
+    &:visited {
+      color: $cVisited;
+    }
+  }
+}
+
 ul {
   a {
     text-decoration: none;

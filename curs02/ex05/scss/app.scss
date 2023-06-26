@@ -19,3 +19,11 @@
     }
   }
 }
+
+@for $i from 1 to 10 {
+  .box-0#{$i} {
+    @if $i {
+      border: #{$i}px dotted;
+    }
+  }
+}
