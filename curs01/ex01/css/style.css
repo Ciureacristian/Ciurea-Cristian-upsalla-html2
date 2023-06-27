@@ -125,3 +125,7 @@ body > h2 {
     display: none;
   }
 }
+
+body > h3 {
+  display: none;
+}
