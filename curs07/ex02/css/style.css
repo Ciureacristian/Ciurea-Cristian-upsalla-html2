@@ -35,10 +35,19 @@ body {
 }
 
 @keyframes box-2 {
-  33.3% {
+  25% {
     transform: translateY(calc(100vh - var(--d)));
   }
 
-  66.6% {
+  50% {
+    transform: translate(calc(100vw - var(--d)), calc(100vh - var(--d)));
+  }
+
+  75% {
+    transform: translate(calc(100vw - var(--d)));
+  }
+
+  100% {
+    transform: translateY(calc(100vh - var(--d)));
   }
 }
