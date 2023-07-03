@@ -41,6 +41,14 @@
   color: #fff;
 }
 /* please do not modify this code */
+.flex-container-01 {
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-01 .flex-item:nth-child(4) {
+  align-self: center;
+}
 
 .flex-container-02 {
   justify-content: center;
@@ -59,6 +67,24 @@
 
 .flex-container-03 :nth-of-type(2) {
   align-self: flex-start;
+}
+
+.flex-container-04 {
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.flex-container-04 :last-child {
+  align-self: center;
+}
+
+.flex-container-05 {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-container-05 .flex-item:nth-child(4) {
+  align-self: stretch;
 }
 
 .flex-container-06 {

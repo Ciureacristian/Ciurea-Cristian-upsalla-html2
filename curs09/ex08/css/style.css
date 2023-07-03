@@ -51,6 +51,16 @@
 }
 /* please do not modify this code */
 
+.flex-container-01 {
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.flex-container-01 .one {
+  flex-shrink: 2;
+}
+
 .flex-container-02 {
   flex-direction: row-reverse;
   align-items: center;
@@ -76,4 +86,39 @@
 
 .flex-container-03 :last-child {
   flex-shrink: 3;
+}
+
+.flex-container-04 {
+  flex-direction: row-reverse;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.flex-container-04 .two {
+  flex-shrink: 3;
+}
+
+.flex-container-04 .three {
+  flex-shrink: 2;
+}
+
+.flex-container-05 {
+  justify-content: center;
+}
+
+.flex-container-05 :nth-child(2) {
+  flex-shrink: 2;
+}
+
+.flex-container-06 {
+  align-items: center;
+  justify-content: space-around;
+}
+
+.flex-container-06 :nth-child(3) {
+  flex-shrink: 3;
+}
+
+.flex-container-06 :last-child {
+  flex-shrink: 0;
 }
