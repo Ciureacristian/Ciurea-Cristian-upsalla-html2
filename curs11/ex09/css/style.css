@@ -56,3 +56,15 @@
 .grid-container-02 .grid-item-2 {
   order: 1;
 }
+
+.grid-container-03 .grid-item-3 {
+  order: 1;
+}
+
+.grid-container-04 .grid-item-5 {
+  order: -1;
+}
+
+.grid-container-04 .grid-item-2 {
+  order: 1;
+}

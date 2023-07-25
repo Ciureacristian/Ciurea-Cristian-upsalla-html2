@@ -31,9 +31,9 @@
   </header>
 
   <form>
-    <section class="general container">
+    <section class="general container mb-4">
       <header class="mb-3 pt-4">
-        <h2>Reteta</h1>
+        <h1>Reteta</h1>
       </header>
 
       <div class="row ">
@@ -141,25 +141,32 @@
     </section>
     <!--general-->
 
-    <section class="author container">
+    <div class="author container">
       <header class="mb-3">
-        <h1>Autor</h1>
+        <h1>Autor (optional)</h1>
       </header>
 
-      <section>
-        <label class="switch">
-          <input
-            type="checkbox"
-            name="button-round"
-            id="switch-round"
-          >
-          <label for="switch-round">Adauga autor</label>
+      <div class="row mb-3">
+        <div class="col">
+          <div class="form-check form-switch">
+            <input
+              type="checkbox"
+              name="author"
+              id="author"
+              class="form-check-input"
+            >
+            <label
+              for="author"
+              class="form-check-label"
+            >Adauga autor</label>
 
-        </label>
-      </section>
+          </div>
+        </div>
+      </div>
 
-      <div class="row">
+      <div class="row mb-3">
         <div class="col-lg-6 d-flex flex-column gap-3">
+
           <div class="input-group">
             <label
               for="author-firstName"
@@ -213,6 +220,8 @@
           </div>
         </div>
 
+
+
         <div class="col-lg-6 md-3 mt-lg-0 flex-column gap-3 d-flex">
           <div class="input-group">
             <label
@@ -231,14 +240,16 @@
             >
           </div>
         </div>
+
       </div>
+    </div>
 
     </section>
     <!--author-->
 
     <section class="ingredient container">
       <header class="mb-3 pt-4">
-        <h2>Ingrediente</h2>
+        <h1>Ingrediente</h1>
       </header>
 
       <div class="row">
@@ -246,15 +257,15 @@
         <div class="col-lg-6 d-flex flex-column gap-3">
           <div class="input-group">
             <label
-              for="author-name"
+              for="ingredient-name"
               class="input-group-text"
             >Nume ingrediente *
             </label>
 
             <input
               type="text"
-              name="author-name"
-              id="author-name"
+              name="ingredient-name"
+              id="ingredient-name"
               placeholder="Nume ingrediente *"
               required
             >
@@ -262,6 +273,7 @@
 
             <button
               type="button"
+              title="Adauga"
               class="btn btn-primary"
             >Adauga</button>
           </div>
@@ -269,16 +281,18 @@
 
         <div class="col-lg-6 md-3 mt-lg-0 flex-column gap-4 d-flex">
           <h2>Lista ingrediente</h2>
-          <ul>
+          <ul class="p-0">
             <li>10g ulei
               <button
                 type="button"
                 class="btn btn-primary"
+                title="Editeaza"
               >Editeaza</button>
 
               <button
                 type="button"
                 class="btn btn-danger"
+                title="Sterge"
               >Sterge</button>
             </li>
 
@@ -394,10 +408,12 @@
         <button
           type="button"
           class="btn btn-outline-danger btn-lg"
+          title="Reseteaza"
         >Reseteaza tot</button>
         <button
           type="button"
           class="btn btn-primary btn-lg"
+          title="Trimite"
         >Trimite reteta</button>
     </section>
     <!--controls-->

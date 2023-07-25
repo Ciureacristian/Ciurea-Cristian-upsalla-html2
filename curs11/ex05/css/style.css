@@ -37,7 +37,8 @@
 }
 
 .grid-container .grid-item-1 {
-  grid-column-start: span 4;
+  grid-column-start: 1;
+  grid-column-end: span 4;
 }
 
 .grid-container .grid-item-2 {

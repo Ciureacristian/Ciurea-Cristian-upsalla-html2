@@ -171,7 +171,7 @@
 
         </div>
       </section>
-
+      <!--/product contianer-->
       <section class="price container">
         <header>
           <h3 class="mt-2">Pret</h3>
@@ -245,7 +245,7 @@
           </div>
         </div>
       </section>
-
+      <!--/price-->
       <section class="brand container">
         <header class="mt-3">
           <h3>Brand</h3>
@@ -253,64 +253,76 @@
 
         <div class="row">
           <div class="col-lg-6 d-flex flex-column gap-3 ">
-            <div class="input-group">
-              <label
-                for="brand-name"
-                class="input-group-text"
-              >Nume brand *
-              </label>
-
+            <div class="form-check form-switch">
               <input
-                type="text"
-                name="brand-name"
-                id="brand-name"
-                placeholder="Nume brand"
-                class="form-control"
-                required
+                type="checkbox"
+                name="author"
+                id="author"
+                class="form-check-input"
               >
+              <label
+                for="author"
+                class="form-check-label"
+              >Adauga brand</label>
+
+              <div class="input-group">
+                <label
+                  for="brand-name"
+                  class="input-group-text"
+                >Nume brand *
+                </label>
+
+                <input
+                  type="text"
+                  name="brand-name"
+                  id="brand-name"
+                  placeholder="Nume brand"
+                  class="form-control"
+                  required
+                >
+              </div>
+
+              <div class="input-group">
+                <label
+                  for="description-brand"
+                  class="input-group-text"
+                >
+                  Descrirere brand *
+                </label>
+
+                <textarea
+                  name="description-brand"
+                  id="description-brand"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Descriere brand "
+                  required
+                ></textarea>
+              </div>
             </div>
 
-            <div class="input-group">
-              <label
-                for="description-brand"
-                class="input-group-text"
-              >
-                Descrirere brand *
-              </label>
+            <div class="col-lg-6 d-flex flex-column gap-3">
+              <div class="input-group">
+                <label
+                  for="adress-brand"
+                  class="input-group-text"
+                >
+                  Adresa brand *
+                </label>
 
-              <textarea
-                name="description-brand"
-                id="description-brand"
-                rows="4"
-                class="form-control"
-                placeholder="Descriere brand "
-                required
-              ></textarea>
+                <textarea
+                  name="adress-brand"
+                  id="adress-brand"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Adresa brand "
+                  required
+                ></textarea>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-6 d-flex flex-column gap-3">
-            <div class="input-group">
-              <label
-                for="adress-brand"
-                class="input-group-text"
-              >
-                Adresa brand *
-              </label>
-
-              <textarea
-                name="adress-brand"
-                id="adress-brand"
-                rows="4"
-                class="form-control"
-                placeholder="Adresa brand "
-                required
-              ></textarea>
-            </div>
-          </div>
-        </div>
       </section>
-
+      <!--brand-->
       <section class="provider container">
 
         <header class="mt-3">
@@ -318,64 +330,76 @@
         </header>
         <div class="row">
           <div class="col-lg-6 d-flex flex-column gap-3 ">
-            <div class="input-group">
-              <label
-                for="name-provider"
-                class="input-group-text"
-              >Nume furnizor *
-              </label>
-
+            <div class="form-check form-switch">
               <input
-                type="text"
-                name="name-provider"
-                id="name-provider"
-                placeholder="Nume furnizor"
-                class="form-control"
-                required
+                type="checkbox"
+                name="author"
+                id="author"
+                class="form-check-input"
               >
+              <label
+                for="author"
+                class="form-check-label"
+              >Adauga furnizor</label>
+
+              <div class="input-group">
+                <label
+                  for="name-provider"
+                  class="input-group-text"
+                >Nume furnizor *
+                </label>
+
+                <input
+                  type="text"
+                  name="name-provider"
+                  id="name-provider"
+                  placeholder="Nume furnizor"
+                  class="form-control"
+                  required
+                >
+              </div>
+
+              <div class="input-group">
+                <label
+                  for="description-provider"
+                  class="input-group-text"
+                >
+                  Descrirere furnizor *
+                </label>
+
+                <textarea
+                  name="description-provider"
+                  id="description-provider"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Descriere furnizor "
+                  required
+                ></textarea>
+              </div>
             </div>
 
-            <div class="input-group">
-              <label
-                for="description-provider"
-                class="input-group-text"
-              >
-                Descrirere furnizor *
-              </label>
+            <div class="col-lg-6 d-flex flex-column gap-3">
+              <div class="input-group">
+                <label
+                  for="adress-provider"
+                  class="input-group-text"
+                >
+                  Adresa furnizor *
+                </label>
 
-              <textarea
-                name="description-provider"
-                id="description-provider"
-                rows="4"
-                class="form-control"
-                placeholder="Descriere furnizor "
-                required
-              ></textarea>
+                <textarea
+                  name="adress-provider"
+                  id="adress-provider"
+                  rows="4"
+                  class="form-control"
+                  placeholder="Adresa furnizor "
+                  required
+                ></textarea>
+              </div>
             </div>
           </div>
-
-          <div class="col-lg-6 d-flex flex-column gap-3">
-            <div class="input-group">
-              <label
-                for="adress-provider"
-                class="input-group-text"
-              >
-                Adresa furnizor *
-              </label>
-
-              <textarea
-                name="adress-provider"
-                id="adress-provider"
-                rows="4"
-                class="form-control"
-                placeholder="Adresa furnizor "
-                required
-              ></textarea>
-            </div>
-          </div>
-        </div>
       </section>
-
+      <!--provider-->
       <section class="controls container">
         <div class="d-flex justify-content-center gap-3 mt-4">
           <button
@@ -387,6 +411,7 @@
             class="btn btn-primary btn-lg"
           >Trimite reteta</button>
       </section>
+      <!--controls-->
     </form>
 
     <div
